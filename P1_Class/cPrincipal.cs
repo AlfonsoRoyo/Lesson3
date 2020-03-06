@@ -30,11 +30,12 @@ namespace P1_Class
             //covid19.informeStatvirus();
             Console.ReadLine();
             //................................................................nueva prueba
-
+            // inicializa la clase , constructor
             cVirus GripeA = new cVirus();
 
             for (int i = 0; i < 100; i++) 
             {
+             GripeA.tipus ("GripeA");
              GripeA.contagiar();
              GripeA.informeStatvirus();
             }
