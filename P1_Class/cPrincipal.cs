@@ -13,37 +13,26 @@ namespace P1_Class
             //contructor de una nueva clase
 
             cVirus covid19 = new cVirus();
+            cVirus gripeA = new cVirus("gripe" ,3,45,1);
+           
 
+            gripeA.Temperatura = 10; //Set
+            double p = gripeA.Temperatura; //get
+         
 
-            //llamado a los metodos publicos de la clase cVirus en la nueva clase contruida covid19 (veo que no haria falta)
-
-            //covid19.contagiar();
-            //covid19.informeStatvirus();
 
 
             for (int i = 0; i < 130; i++) // integracion de la i hasta 100 , cada vez 1
             {
                 covid19.contagiar();
                 covid19.informeStatvirus();
-
-            }
-            //covid19.informeStatvirus();
-            Console.ReadLine();
-            //................................................................nueva prueba
-            // inicializa la clase , constructor
-            cVirus GripeA = new cVirus();
-
-            for (int i = 0; i < 100; i++) 
-            {
-             GripeA.tipus ("GripeA");
-             GripeA.contagiar();
-             GripeA.informeStatvirus();
+                gripeA.contagiar();
+                gripeA.informeStatvirus();
             }
             Console.ReadLine();
 
-                
-                
-         }
+
+        }
 
     }
 }
