@@ -12,7 +12,8 @@ namespace p1_Herencia
    
     {
 
-        
+        // Inizialitzacio  del nombre constructor
+
         // metodo para inicializar el nombre constructor en la clase derivada
         public cGos(): this (string n) { }
         
@@ -21,8 +22,7 @@ namespace p1_Herencia
         {
             if (this.raza == "llop") Console.WriteLine("Udolar");
             else Console.WriteLine("Bordad");
-
-         
+            
         }
         
     }
