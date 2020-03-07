@@ -22,12 +22,9 @@ namespace P1_Class
             get { return temperatura - 273.15; }  //ºC
 
             set { 
-
                 temperatura = value + 273.15;
                 Console.WriteLine(temperatura);
-            
             }
- 
         }
         public int perill    //se crean las propiedades 
         {
@@ -37,29 +34,20 @@ namespace P1_Class
             // creando propiedades
             //Set
             get {
-
                 if (this.tipus == "gripe")
                 {
-        
                 return (this.Perillositat / 10);
-
                 }
-              
                 else
                 {
                   return (this.Perillositat / 100);
-
                 }
                // return this.Perillositat;    
             } 
-
             //Write
             set {
                 Perillositat = value;
-            
-            
             } //Writte
-
         }
 
         public int TaxaCuracion { get => taxaCuracion; set => taxaCuracion = value; }//realizado como la parte de arriba

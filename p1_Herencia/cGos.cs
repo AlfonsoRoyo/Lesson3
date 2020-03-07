@@ -6,21 +6,24 @@ using System.Threading.Tasks;
 
 namespace p1_Herencia
 {
-    class cGos : cAnimal //clase derivada herencia , aqui comenca la fiesta
 
+
+   class cGos : cAnimal // cGos hereda de la clase cAnimal "se escribe asi"
+   
     {
+
+        
+        // metodo para inicializar el nombre constructor en la clase derivada
         public cGos(): this (string n) { }
+        
 
-
-
-                              // metodo para inicializar el nombre constructor en la clase derivada
-
-
-        void Bordar()  //se crea la funcion de bordar
+        void Bordar()  //Creacion de la funcion de bordar
         {
             if (this.raza == "llop") Console.WriteLine("Udolar");
             else Console.WriteLine("Bordad");
-        }
 
+         
+        }
+        
     }
 }

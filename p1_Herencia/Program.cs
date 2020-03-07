@@ -11,12 +11,12 @@ namespace p1_Herencia
         static void Main(string[] args)
         {
 
-
+            // Metodo Constructor de una nueva clase, contruimos "claseAnimal", "claseGos", "claseGat"
             cAnimal claseAnimal = new cAnimal("Animal");
             cGos claseGos = new cGos();
             cGat claseGat = new cGat();
 
-
+           
         }
     }
 
